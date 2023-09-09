@@ -1,0 +1,4 @@
+build
+dist
+fxwl-config.json
+*.spec
