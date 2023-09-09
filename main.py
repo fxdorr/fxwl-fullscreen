@@ -67,8 +67,6 @@ try:
             win32gui.ShowWindow(mainHandle, win32con.SW_RESTORE)
         elif left != 0 and top != 0:
             print('窗口未全屏：' + nowTime)
-            WshShell.SendKeys('{esc}')
-            time.sleep(0.05)
             WshShell.SendKeys('{f11}')
 except Exception as e:
     print(e)
